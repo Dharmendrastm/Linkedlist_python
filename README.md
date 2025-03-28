@@ -1,5 +1,4 @@
 # how-to-make-a-linked-list-data-in-python-programming
-# Function to display the menu
 
 def display_menu():
 
@@ -15,7 +14,7 @@ def display_menu():
     
     print("5. Exit")
 
-# Function to add a task
+
 
 def add_task(tasks):
 
@@ -25,7 +24,6 @@ def add_task(tasks):
     
     print("Task added successfully!")
 
-# Function to view all tasks
 
 def view_tasks(tasks):
 
@@ -37,7 +35,7 @@ def view_tasks(tasks):
         
         print(f"{index}. {task['task']} - {status}")
 
-# Function to mark a task as completed
+
 
 def mark_completed(tasks):
 
@@ -49,7 +47,7 @@ def mark_completed(tasks):
     
     print("Task marked as completed!")
 
-# Function to delete a task
+
 
 def delete_task(tasks):
 
@@ -61,7 +59,6 @@ def delete_task(tasks):
     
     print("Task deleted successfully!")
 
-# Main function
 
 def main():
 
